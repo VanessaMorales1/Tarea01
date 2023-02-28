@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DatabaseTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DatabaseTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.distribuida.test.html">com.distribuida.test</a> &gt; DatabaseTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.653s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testPrueba2()"></a>
+<h3 class="failures">testPrueba2()</h3>
+<span class="code">
+<pre>org.opentest4j.AssertionFailedError: Book found ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)
+	at app//com.distribuida.test.DatabaseTest.testPrueba2(DatabaseTest.java:48)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.jboss.weld.bean.proxy.AbstractBeanInstance.invoke(AbstractBeanInstance.java:38)
+	at app//org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at app//com.distribuida.test.DatabaseTest$Proxy$_$$_WeldClientProxy.testPrueba2(Unknown Source)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at app//org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at app//org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:117)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at app//org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at app//org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at app//org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at app//org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@17.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base@17.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at app//org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at app//org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at app//org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at app//org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at app//org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testPrueba()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">testPrueba2()</td>
+<td class="failures">0.641s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2023.02.24 00:13:56 INFO io.helidon.common.LogConfig Thread[Test worker,5,main]: Logging at initialization configured using classpath: /logging.properties
+2023.02.24 00:13:57 DEBUG org.jboss.weld.Bootstrap Thread[Test worker,5,main]: WELD-000100: Weld initialized. Validating beans
+2023.02.24 00:13:57 FINE io.helidon.microprofile.cdi.HelidonContainerImpl Thread[Test worker,5,main]: Container started in 40 millis (this excludes the initialization time)
+2023.02.24 00:13:57 FINE io.helidon.common.HelidonFeatures Thread[features-thread,5,main]: No catalog entry for package io.helidon.jersey.client
+2023.02.24 00:13:57 FINE io.helidon.common.HelidonFeatures Thread[features-thread,5,main]: No catalog entry for package io.helidon.config.yaml.mp
+2023.02.24 00:13:57 FINE org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation Thread[Test worker,5,main]: The invocation is skipped
+2023.02.24 00:13:57 INFO io.helidon.common.HelidonFeatures Thread[features-thread,5,main]: Helidon MP 3.1.0 features: [CDI, Config, Db Client, Tracing]
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: HikariPool-1 - configuration:
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: allowPoolSuspension.............false
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: autoCommit......................true
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: catalog.........................none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: connectionInitSql...............none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: connectionTestQuery.............none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: connectionTimeout...............30000
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: dataSource......................none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: dataSourceClassName.............none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: dataSourceJNDI..................none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: dataSourceProperties............{password=&lt;masked&gt;}
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: driverClassName.................none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: exceptionOverrideClassName......none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: healthCheckProperties...........{}
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: healthCheckRegistry.............none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: idleTimeout.....................600000
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: initializationFailTimeout.......1
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: isolateInternalQueries..........false
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: jdbcUrl.........................jdbc:postgresql://127.0.0.1:5432/distribuida
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: keepaliveTime...................0
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: leakDetectionThreshold..........0
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: maxLifetime.....................1800000
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: maximumPoolSize.................10
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: metricRegistry..................none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: metricsTrackerFactory...........none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: minimumIdle.....................10
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: password........................&lt;masked&gt;
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: poolName........................&quot;HikariPool-1&quot;
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: readOnly........................false
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: registerMbeans..................false
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: scheduledExecutor...............none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: schema..........................none
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: threadFactory...................internal
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: transactionIsolation............default
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: username........................&quot;postgres&quot;
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.HikariConfig Thread[Test worker,5,main]: validationTimeout...............5000
+2023.02.24 00:13:57 INFO com.zaxxer.hikari.HikariDataSource Thread[Test worker,5,main]: HikariPool-1 - Starting...
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.util.DriverDataSource Thread[Test worker,5,main]: Loaded driver with class name org.postgresql.Driver for jdbcUrl=jdbc:postgresql://127.0.0.1:5432/distribuida
+2023.02.24 00:13:57 FINE org.postgresql.Driver Thread[Test worker,5,main]: Loading driver configuration via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93
+2023.02.24 00:13:57 FINE org.postgresql.Driver Thread[Test worker,5,main]: Connecting with URL: jdbc:postgresql://127.0.0.1:5432/distribuida
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[Test worker,5,main]: PostgreSQL JDBC Driver 42.5.1
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[Test worker,5,main]:   setDefaultFetchSize = 0
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[Test worker,5,main]:   setPrepareThreshold = 5
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[Test worker,5,main]: Trying to establish a protocol version 3 connection to 127.0.0.1:5432
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[Test worker,5,main]: Receive Buffer Size is 65.536
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[Test worker,5,main]: Send Buffer Size is 65.536
+2023.02.24 00:13:57 INFO com.zaxxer.hikari.pool.HikariPool Thread[Test worker,5,main]: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20a05b32
+2023.02.24 00:13:57 INFO com.zaxxer.hikari.HikariDataSource Thread[Test worker,5,main]: HikariPool-1 - Start completed.
+2023.02.24 00:13:57 FINE io.helidon.common.configurable.ThreadPool Thread[Test worker,5,main]: ThreadPool 'jdbc-dbclient-thread-pool' {corePoolSize=10, maxPoolSize=50, queueCapacity=10000, growthThreshold=1000, growthRate=0%, averageQueueSize=0,00, peakQueueSize=0, averageActiveThreads=0,00, peakPoolSize=0, currentPoolSize=0, completedTasks=0, failedTasks=0, rejectedTasks=0}
+2023.02.24 00:13:57 FINE io.helidon.dbclient.jdbc.JdbcStatement Thread[helidon-jdbc-dbclient-thread-pool-3,5,jdbc-dbclient-thread-pool]: Building SQL statement: select * from books where id=?
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.pool.HikariPool Thread[HikariPool-1 housekeeper,5,main]: HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023.02.24 00:13:57 FINE org.postgresql.Driver Thread[HikariPool-1 connection adder,5,main]: Connecting with URL: jdbc:postgresql://127.0.0.1:5432/distribuida
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[HikariPool-1 connection adder,5,main]: PostgreSQL JDBC Driver 42.5.1
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[HikariPool-1 connection adder,5,main]:   setDefaultFetchSize = 0
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[HikariPool-1 connection adder,5,main]:   setPrepareThreshold = 5
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[HikariPool-1 connection adder,5,main]: Trying to establish a protocol version 3 connection to 127.0.0.1:5432
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[HikariPool-1 connection adder,5,main]: Receive Buffer Size is 65.536
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[HikariPool-1 connection adder,5,main]: Send Buffer Size is 65.536
+2023.02.24 00:13:57 FINE com.zaxxer.hikari.pool.HikariPool Thread[HikariPool-1 connection adder,5,main]: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@737ed91e
+2023.02.24 00:13:57 FINE org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation Thread[Test worker,5,main]: The invocation is skipped
+2023.02.24 00:13:57 FINE io.helidon.dbclient.jdbc.JdbcStatement Thread[helidon-jdbc-dbclient-thread-pool-5,5,jdbc-dbclient-thread-pool]: Building SQL statement: select * from books where id=?
+2023.02.24 00:13:57 FINE org.postgresql.Driver Thread[HikariPool-1 connection adder,5,main]: Connecting with URL: jdbc:postgresql://127.0.0.1:5432/distribuida
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[HikariPool-1 connection adder,5,main]: PostgreSQL JDBC Driver 42.5.1
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[HikariPool-1 connection adder,5,main]:   setDefaultFetchSize = 0
+2023.02.24 00:13:57 FINE org.postgresql.jdbc.PgConnection Thread[HikariPool-1 connection adder,5,main]:   setPrepareThreshold = 5
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[HikariPool-1 connection adder,5,main]: Trying to establish a protocol version 3 connection to 127.0.0.1:5432
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[HikariPool-1 connection adder,5,main]: Receive Buffer Size is 65.536
+2023.02.24 00:13:57 FINE org.postgresql.core.v3.ConnectionFactoryImpl Thread[HikariPool-1 connection adder,5,main]: Send Buffer Size is 65.536
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>feb. 24, 2023 12:13:55 A. M. org.jboss.weld.bootstrap.WeldStartup &lt;clinit&gt;
+INFO: WELD-000900: 4.0.2 (Final)
+feb. 24, 2023 12:13:56 A. M. org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 24 feb. 2023 00:13:58</p>
+</div>
+</div>
+</body>
+</html>
